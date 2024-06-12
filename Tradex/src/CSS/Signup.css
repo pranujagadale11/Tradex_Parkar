@@ -1,0 +1,65 @@
+body{
+  height: 100vh;
+  width: 100%;
+ 
+  justify-content: center;
+  align-items: center;
+  
+}
+.backImg{
+  background-color: gray; 
+  display: flex;
+  background-image: url('https://s33007.pcdn.co/wp-content/uploads/2023/04/Website-Image_Wide-general_-forex_trading_graph_gettyimages_1201450283.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
+}
+.container1 {
+    width:400px;
+    
+    margin: auto;
+    padding:  20px;
+    background-color:black ;
+    border-radius:  8px;
+    box-shadow:  0 0  10px  #21CE99;
+  }
+  
+  .container1 h1 {
+    color: #21CE99;
+    font-weight: bold;
+  }
+  
+  .container1 .form-group {
+    margin-bottom:  15px;
+  }
+  
+  .container1 .form-control {
+    border-radius:  4px;
+    box-shadow:  0  2px  5px #21CE99;
+  }
+  
+  .container1 .btn-primary {
+    background-color: #21CE99;
+    border-color: #21CE99;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .container1 .btn-primary:hover {
+    background-color: #21CE99;
+    border-color: #21CE99;
+  }
+  
+  .container1 .btn-link {
+    color: #21CE99;
+  }
+  
+  .container1 .btn-link:hover {
+    color: #21CE99;
+  }
+  
+  .container1 .placeholder{
+    color: #21CE99;
+  }
+ 

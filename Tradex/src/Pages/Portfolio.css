@@ -1,0 +1,126 @@
+/* StockList.css */
+.Background {
+    background-color: #1e1e1e;
+    color: white;
+    min-height:  100vh;
+  }
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  
+  /* .card:hover {
+    box-shadow:  0  8px  16px  0 rgba(0,0,0,0.2);
+  }
+   */
+/*   
+  .card {
+    width:  50%;
+    height: 50%;
+    margin-bottom:  20px;
+    border-radius:  10px;
+    transition:  0.3s;
+    box-shadow:  0  4px  8px  0 ;
+    color:white;
+    background-color :black;
+
+  } */
+  
+  
+  .card-title, .card-text {
+    margin-bottom:  10px;
+    font-size: 25px;
+  }
+  
+  .btn-danger1 {
+   
+    color: #fff;
+    font-weight: bold;
+    width: 100px;
+    margin-left: 20px;
+  }
+  
+  .btn-success1{
+    /* background-color: green;
+    border-color: green; */
+    color: #fff;
+    font-weight: bold;
+    width: 100px;
+    margin-left: 20px;
+  }
+  
+  .btn-danger1:hover {
+    background-color: red;
+    border-color: red;
+  }
+  
+  .btn-success1:hover {
+    background-color: #21CE99;
+    border-color: #21CE99;
+  }
+  .subtotal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    
+    
+  }
+  .subtotal-container h5{
+    font-size: 25px;
+    margin-top: 60px;
+  }
+
+  
+  
+  .card{
+    width: 75%; 
+    padding: 0;
+    border:  1px solid #21CE99;
+    box-shadow:  0  4px  8px  0 rgba(0,  0,  0,  0.2),  0  6px  20px  0 rgba(0,  0,  0,  0.19);
+    transition: box-shadow  0.3s ease-in-out;
+    margin:  10px;
+    color:white;
+    background-color :black;
+  }
+  
+  .border-green{
+    border: 2px solid #21CE99;
+    /* background-color: #21ce9a89; */
+  }
+  .border-red{
+    border: 2px solid #f15252;
+    /* background-color:  #f1525295; */
+  }
+  .profit {
+    color: green;
+    
+  }
+  
+  .loss {
+    color: red;
+  }
+  .border-green:hover {
+    box-shadow:  0 0 5px 5px #21CE99;
+  }
+  .border-red:hover{
+    box-shadow:  0 0 5px 5px #f15252;
+  }
+  
+  .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sell{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+  }
+  strong.uncolouredText{
+    color: white;
+  }
+  

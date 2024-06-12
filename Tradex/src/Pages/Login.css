@@ -1,0 +1,94 @@
+ 
+.inp{
+  display: flex;
+  height: 40px;
+  /* width: 80%; */
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-items:center ;
+  position: relative;
+  right: 25px;
+ 
+  /* background-color: aliceblue; */
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+ 
+  /* justify-content: center; */
+}
+.login-container {
+    width:  500px;
+    /* padding:  10px; */
+    background-color: black;
+    border-radius:  8px;
+    box-shadow:  0  0  10px #21CE99;
+    margin-left: 400px;
+    margin-top: 40px;
+    height: 520px;
+    /* display: flex; */
+ 
+   
+  }
+  .icon{
+    position: relative;
+    right: 40px;
+    /* background-color: aliceblue; */
+    font-size: 20px;
+    /* left: 10px; */
+    height: 100%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+ 
+  .login-container h1 {
+    color: #21CE99;
+    font-weight: bold;
+  }
+ 
+ 
+ 
+  input, .formFieldInput{
+    /* margin: 0; */
+    width: 250px;
+    height: 40px;
+    /* width: 70%; */
+  }
+ 
+  .login-container h1{
+    margin-bottom: 10px;
+  }
+  .login-container .form-control {
+    border-radius:  4px;
+    box-shadow:  0  2px  5px #21CE99;
+  }
+ 
+  .login-container .btn-primary {
+    background-color: #21CE99;
+    border-color: #21CE99;
+    color: black;
+    font-weight: bold;
+  }
+ 
+  .login-container.btn-primary:hover {
+    background-color: #21CE99;
+    border-color: #21CE99;
+  }
+ 
+  .login-container.btn-link {
+    color: #21CE99;
+  }
+ 
+  .container1 .btn-link:hover {
+    color: #21CE99;
+  }
+ 
+  .container1 .placeholder{
+    color: #21CE99;
+  }
+ 

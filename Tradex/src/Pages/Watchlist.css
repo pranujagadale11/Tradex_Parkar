@@ -1,0 +1,93 @@
+/* Watchlist.css */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px;
+    background-color: #1e1e1e;
+  }
+  
+  .stock-item {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1000px; /* Set a maximum width if necessary */
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    text-emphasis-color: white;
+    border : 0.5px rgb(79, 78, 77) solid;
+  }
+  
+  .stock-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%; /* Ensure the stock-info div takes full width */
+  }
+  
+  .stock-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .ticker, .text-muted, .price {
+    margin: 0;
+    color: aquamarine;
+  }
+  
+  .buy-button {
+    background-color: #81eb7a;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px; /* Add margin for spacing between price and buy button */
+  }
+  
+  .stock-item {
+    transition: background-color  0.3s ease, box-shadow  0.3s ease; /* Smooth transition */
+  }
+  
+  .stock-item:hover {
+    border-color: #21CE99; /* Change the background color on hover */
+    box-shadow:  0  4px  8px rgba(0,  0,  0,  0.1); /* Add a box shadow on hover */
+  }
+
+  @keyframes spin {
+    0% {
+     transform: rotate(0deg);
+   }
+    100% {
+     transform: rotate(360deg);
+   }
+ }
+ 
+ .Loading-Container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: -1000px;
+   height:  100vh; 
+   color: #fff;
+ }
+ 
+ .Loading-Container::before {
+   content: "";
+   display: block;
+   width:  50px;
+   height:  50px;
+   border:  5px solid #000;
+   border-top-color: #edebeb;
+   border-radius:  50%;
+   animation: spin  1s linear infinite;
+ }
+body{
+  background-color: black;
+}
+
+ 

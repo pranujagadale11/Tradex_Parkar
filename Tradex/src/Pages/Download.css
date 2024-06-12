@@ -1,0 +1,14 @@
+.downloadcontainer{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.downloadbtn{
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 1px solid white;
+    padding: 5px;
+ 
+}
